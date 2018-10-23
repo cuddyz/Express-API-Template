@@ -26,9 +26,9 @@ async function main() {
   const appEnv = {isLocal: true}
   const port = appEnv.isLocal ? 8874 : appEnv.port
 
-  const username = 'admin'
-  const password = 'admin'
-  const url = "ds019940.mlab.com:19940/sample-api"
+  const username = 'USERNAME'
+  const password = 'PASSWORD'
+  const url = "MONGO_URL"
 
   const options = {
     promiseLibrary: global.Promise,
